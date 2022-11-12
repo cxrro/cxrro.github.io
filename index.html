@@ -3,10 +3,10 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>cawwo</title>
-    <meta name="description" content="it my website" />
-    <meta name="keywords" content="heheh" />
-    <meta name="author" content="carolyn" />
+    <title>Kerri | Responsive Bootstrap 5 Personal Template</title>
+    <meta name="description" content="Premium Responsive Bootstrap 5 Personal Template" />
+    <meta name="keywords" content="bootstrap 5, premium, cv, personal, Portfolio, multipurpose" />
+    <meta name="author" content="SRBThemes" />
 
     <link rel="shortcut icon" href="images/favicon.ico">
 
@@ -82,14 +82,14 @@
 
 
     <!-- START HOME -->
-    <section class="section header-bg-img h-100vh align-items-center d-flex" id="home">
+    <section class="section h-100vh align-items-center jarallax d-flex" data-jarallax='{"speed": 0.2}' style="background-image: url('images/header-bg.jpg');" id="home">
         <div class="bg-overlay"></div>
         <div class="container z-index">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <div class="text-center header-content mx-auto">
                         <h4 class="text-white first-title mb-4">Welcome</h4>
-                        <h1 class="header-name text-white text-capitalize mb-0">I'M <span class="element fw-bold"></span></h1>
+                        <h1 class="header-name text-white text-capitalize mb-0">I'M <span class="simple-text-rotate fw-bold">Kerri Deo.,A Graphic Designer.,A Photographer.</span></h1>
                         <p class="text-white mx-auto header-desc mt-4">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
                         <div class="mt-4 pt-2">
                             <a href="#" class="btn btn-outline-custom btn-round">Download Cv</a>
@@ -98,11 +98,10 @@
                 </div>
             </div>
         </div>            
-        <div class="wave_sec">
-            <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                <defs></defs>
-                <path id="wave_img" d="M 0 185.609 C 317.16666666666663 118.136 317.16666666666663 118.136 634.3333333333333 151.87 C 951.4999999999999 185.609 951.4999999999999 185.609 1268.6666666666665 116.402 C 1585.833333333333 47.195 1585.833333333333 47.195 1903 131.925 L 1903 507 L 0 507 Z" fill="#2e3135"></path>
-            </svg>
+        <div class="scroll_down">
+            <a href="#about" class="scroll">
+                <i class="text-white"></i>
+            </a>
         </div>
     </section>
     <!-- END HOME -->
@@ -427,13 +426,13 @@
             </div>                 
             <div class="row mt-5">
                 <div class="col-lg-4 mt-3">
-                    <div class="rounded blog_color p-2">
+                    <div class="rounded bg-white p-2">
                         <div class="img_blog">
                             <img src="images/blog/blog-1.jpg" alt="" class="img-fluid rounded mx-auto d-block">
                         </div>
                         <div class="content_blog p-3">
                             <div>
-                                <h5 class="fw-bold mb-0"><a href="#" class="text-white">There are many variations</a></h5>
+                                <h5 class="fw-bold mb-0"><a href="#" class="text-dark">There are many variations</a></h5>
                             </div>
                             <div class="mt-3">
                                 <p class="h6 text-muted date_blog mb-0">11 March 2018 <a href="#" class="text-custom fw-bold">By Kerri</a></p>
@@ -444,13 +443,13 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mt-3">
-                    <div class="rounded blog_color p-2">
+                    <div class="rounded bg-white p-2">
                         <div class="img_blog">
                             <img src="images/blog/blog-2.jpg" alt="" class="img-fluid rounded mx-auto d-block">
                         </div>
                         <div class="content_blog p-3">
                             <div>
-                                <h5 class="fw-bold mb-0"><a href="#" class="text-white">Contrary to popular belief</a></h5>
+                                <h5 class="fw-bold mb-0"><a href="#" class="text-dark">Contrary to popular belief</a></h5>
                             </div>
                             <div class="mt-3">
                                 <p class="h6 text-muted date_blog mb-0">18 March 2018 <a href="#" class="text-custom fw-bold">By Kerri</a></p>
@@ -461,13 +460,13 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mt-3">
-                    <div class="rounded blog_color p-2">
+                    <div class="rounded bg-white p-2">
                         <div class="img_blog">
                             <img src="images/blog/blog-3.jpg" alt="" class="img-fluid rounded mx-auto d-block">
                         </div>
                         <div class="content_blog p-3">
                             <div>
-                                <h5 class="fw-bold mb-0"><a href="#" class="text-white">Lorem Ipsum is not simply</a></h5>
+                                <h5 class="fw-bold mb-0"><a href="#" class="text-dark">Lorem Ipsum is not simply</a></h5>
                             </div>
                             <div class="mt-3">
                                 <p class="h6 text-muted date_blog mb-0">22 March 2018 <a href="#" class="text-custom fw-bold">By Kerri</a></p>
@@ -600,8 +599,8 @@
 	<script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.min.js"></script>
     
-    <!-- Text Type -->
-    <script src="js/typed.js"></script>
+    <!-- Text Rotate -->
+    <script src="js/jquery.simple-text-rotator.js"></script>
     
     <!-- Owl Carousel -->
     <script src="js/owl.carousel.min.js"></script>
@@ -609,12 +608,8 @@
     <!-- Contact Js -->
     <script src="js/contact.js"></script>
 
-    <!-- Wavify JS -->
-    <script src="js/wavify.js"></script>
-    <script src="js/TweenMax.min.js"></script>
-
-    <!-- jQuery Wavify JS -->
-    <script src="js/jquery.wavify.js"></script>
+    <!-- Parallax Js -->
+    <script src="js/parallax.js"></script> 
     
     <!-- Work Filter -->
     <script src="js/isotope.js"></script>
@@ -625,22 +620,10 @@
 	<!-- Custom Js -->
 	<script src="js/custom.js"></script>
     <script>
-        var typed = new Typed('.element', {
-            strings: ["Kerri Deo.", "A Graphic Designer.", "A Photographer."],
-            typeSpeed: 120,
-            backSpeed: 60,
-            backDelay: 3000,
-            loop: true
+        $(".simple-text-rotate").textrotator({
+            animation: "fade",
+            speed: 3500
         });
-        if($('#wave_img').length) {
-            $('#wave_img').wavify({
-                height: 100,
-                bones: 3,
-                amplitude: 50,
-                color: '#2e3135',
-                speed: .25
-            });
-        }
     </script>
 </body>
 </html>
