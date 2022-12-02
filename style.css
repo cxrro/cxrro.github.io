@@ -87,6 +87,7 @@
 
   img {
 	transform: scale(0.3);
+	display: block;
   }
 
   .square:hover {
