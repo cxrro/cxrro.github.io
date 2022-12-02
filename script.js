@@ -12,9 +12,9 @@ window.onload = () => {
 	const l2 = document.querySelector("#l2");
 	l2.setAttribute("data-content", "<h1>resume</h1>last updated dec 2022<br><a href='https://drive.google.com/file/d/14GFlCptTqRZT8a1rikGfvZTIgrqbaSa-/preview'>view</a>");
 	const l3 = document.querySelector("#l3");
-	l3.setAttribute("data-content", "<h1>idk</h1><iframe src='https://www.youtube.com/watch?v=dQw4w9WgXcQ'></iframe>");
+	l3.setAttribute("data-content", "<h1>idk</h1>i dont know what to put here hehe");
 	const l4 = document.querySelector("#l4");
-	l4.setAttribute("data-content", "<h1>bun</h1><iframe src='https://www.youtube.com/watch?v=dQw4w9WgXcQ'></iframe>");
+	l4.setAttribute("data-content", "<h1>bun</h1><a href='bun.carro.dev'>view</a><br>this project was for cs396: generative methods<br>it's a drawing tool that uses p5js to make brushes for people to easily create bunnies<br>have fun with it :)");
 	const l5 = document.querySelector("#l5");
 	l5.setAttribute("data-content", "<h1>site</h1>the site you're on right now<br><a href='github.com/cxrro'>github repo</a>");
 	const l6 = document.querySelector("#l6");
