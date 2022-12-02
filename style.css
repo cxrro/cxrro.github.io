@@ -86,7 +86,7 @@
   }
 
   img {
-	max-width: var(--image-max-width);
+	transform: scale(0.3);
   }
 
   .square:hover {
