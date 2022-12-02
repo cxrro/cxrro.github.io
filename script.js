@@ -17,10 +17,10 @@ window.onload = () => {
 	l3.setAttribute("data-content", "<h1>recent fun stuff</h1>visited christkindlmarket<br><br>learned to bake brioche over thanksgiving break<br><br>spent ~4 months learning about gamecube controller modding and made a custom gcc for my partner<br><br>spent ~6 hours teaching myself advanced tableau");
 
 	const l4 = document.querySelector("#l4");
-	l4.setAttribute("data-content", "<h1>bun</h1><img src='https://i.imgur.com/G0f9JFF.gif'><a href='https://bun.carro.dev'>view</a><br>this project was for cs396: generative methods<br>it's a drawing tool that uses p5js to make brushes for people to easily create bunnies<br>aaa");
+	l4.setAttribute("data-content", "<h1>bun</h1><img src='https://i.imgur.com/G0f9JFF.gif'><a href='https://bun.carro.dev'>view</a><br>a project for cs396: generative methods which uses p5js to make brushes for people to easily create bunnies (or other creatures). the project uses different p5 techniques, including beginShape and endShape, delayed stacked shapes, and color / brush size pickers.");
 
 	const l5 = document.querySelector("#l5");
-	l5.setAttribute("data-content", "<h1>site</h1>the site you're on right now<br><a href='https://github.com/cxrro/cxrro.github.io'>github repo</a>");
+	l5.setAttribute("data-content", "<h1>site</h1>the site you're on right now, created from scratch as an assignment for cs330: human-computer interaction without the use of any external frameworks / libraries<br><br>shoutout to openai chat for debugging my code lol<br><br><a href='https://github.com/cxrro/cxrro.github.io'>github repo</a>");
 
 	const l6 = document.querySelector("#l6");
 	l6.setAttribute("data-content", "<h1>work</h1>i am in my productivity era<br><br><a href='https://arch.library.northwestern.edu/collections/707957731'>comm studies honors thesis<a><br><a href='https://advising.soc.northwestern.edu/academic_modules/media-arts-and-game-design/'>media arts and game design capstone<a><br><a href='https://wiki.communitydata.science/Ecology_of_Online_Communities/Community_rules_study'>cdsc rules study<a><br><a href='https://studio.knightlab.com/projects/live-streaming/'>knight lab livestreaming<a><br><a href='https://magic.gg/news/magic-30-tickets-and-events-details#Program'>wotc project management intern<a>");

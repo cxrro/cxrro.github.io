@@ -85,8 +85,8 @@
 	text-decoration: underline;
   }
 
-  body {
-	text-decoration: none;
+  img {
+	max-width: var(--image-max-width);
   }
 
   .square:hover {
