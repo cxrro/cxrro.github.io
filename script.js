@@ -17,7 +17,7 @@ window.onload = () => {
 	l3.setAttribute("data-content", "<h1>recent fun stuff</h1>visited christkindlmarket<br><br>learned to bake brioche over thanksgiving break<br><br>spent ~4 months learning about gamecube controller modding and made a custom gcc for my partner<br><br>spent ~6 hours teaching myself advanced tableau");
 
 	const l4 = document.querySelector("#l4");
-	l4.setAttribute("data-content", "<h1>bun</h1><a href='https://bun.carro.dev'>view</a><br>this project was for cs396: generative methods<br>it's a drawing tool that uses p5js to make brushes for people to easily create bunnies<br>aaa");
+	l4.setAttribute("data-content", "<h1>bun</h1><img src='https://i.imgur.com/G0f9JFF.gif'><a href='https://bun.carro.dev'>view</a><br>this project was for cs396: generative methods<br>it's a drawing tool that uses p5js to make brushes for people to easily create bunnies<br>aaa");
 
 	const l5 = document.querySelector("#l5");
 	l5.setAttribute("data-content", "<h1>site</h1>the site you're on right now<br><a href='https://github.com/cxrro/cxrro.github.io'>github repo</a>");
