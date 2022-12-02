@@ -1,0 +1,158 @@
+:root {
+	--color-bg: #fdfdfd;
+	--color-text-main: #000;
+	--color-primary: #ffffff;
+	--wrapper-height: 87vh;
+	--image-max-width: 300px;
+	--image-margin: 3rem;
+	--font-family: "IBM Plex Mono";
+	--font-family-header: "IBM Plex Mono";
+  }
+
+  * {
+	box-sizing: border-box;
+  }
+  [hidden] {
+	display: none !important;
+  }
+  
+  body {
+	font-family: IBM Plex Mono;
+	background-color: var(--color-bg);
+	color: #000;
+  }
+
+  .wrapper {
+	min-height: var(--wrapper-height);
+	display: grid;
+	place-items: center;
+	margin: 0 1rem;
+  }
+  .content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .title {
+	color: #000;
+	font-family: IBM Plex Mono;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 105%;
+	margin: 55px 0px 0px 0px;
+  }
+  
+  .subtitle {
+	color: #666;
+	font-size: 10px;
+  }
+
+  .container{
+	margin-top:20px;
+	margin-bottom: 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: space-around;
+	justify-content: center;
+	position: relative;
+  }
+
+.square {
+	padding:18px;
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	border: 2px solid #000;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	order: 1;
+  }
+
+  h1 {
+    display: block;
+	font-size: 7px;
+  }
+
+  a {
+	color: #000;
+	text-decoration: underline;
+  }
+
+  .square:hover {
+	transform: scale(1.05);
+	transition: 1s;
+  }
+
+  .square.active {
+	font-size: 5px;
+	transform: scale(3);
+	border: 1px solid #000;
+	margin: auto;
+	z-index: 1;
+	transition: transform 0.5s;
+  }
+
+  .square:nth-of-type(2) {
+	order: 2;
+  }
+  
+  .square:nth-of-type(3) {
+	order: 3;
+  }
+  
+  .square:nth-of-type(4) {
+	order: 4;
+  }
+  .square:nth-of-type(5) {
+	order: 5;
+  }
+  
+  .square:nth-of-type(6) {
+	order: 6;
+  }
+  
+  .square:nth-of-type(7) {
+	order: 7;
+  }
+  .square:nth-of-type(8) {
+	order: 8;
+  }
+  
+  .square:nth-of-type(9) {
+	order: 9;
+  }
+  
+
+#l1{
+	background-color: #a3cdee;
+}
+#l2{
+	background-color: #f29985;
+}
+#l3{
+	background-color: #c7c3ea;
+}
+#l4{
+	background-color: #98d0a8;
+}
+#l5{
+	background-color: #f6e29d;
+}
+#l6{
+	background-color: #cee693;
+}
+#l7{
+	background-color: #a4e0e0;
+}
+#l8{
+	background-color: #fbcd92;
+}
+#l9{
+	background-color: #c6b3aa;
+}
