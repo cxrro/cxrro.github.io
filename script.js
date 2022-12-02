@@ -8,21 +8,29 @@ function randomSub() {
 
 window.onload = () => {
 	const l1 = document.querySelector("#l1");
-	l1.setAttribute("data-content", "<h1>about</h1>hi i'm carolyn");
+	l1.setAttribute("data-content", "<h1>about</h1>hi! i'm carolyn and i'm a junior at northwestern studying communication and computer science. <br><br>i'm also pursuing the certificate in human-computer interaction</a> and the media arts and game design module.</a> <br><br>i'm interested in educational games, data visualization, and continental philosophy.<br><br>in my free time, i enjoy making and solving crossword puzzles and playing strategy games. i'm ranked top 0.2% in teamfight tactics.");
+
 	const l2 = document.querySelector("#l2");
 	l2.setAttribute("data-content", "<h1>resume</h1>last updated dec 2022<br><a href='https://drive.google.com/file/d/14GFlCptTqRZT8a1rikGfvZTIgrqbaSa-/preview'>view</a>");
+
 	const l3 = document.querySelector("#l3");
-	l3.setAttribute("data-content", "<h1>idk</h1>i dont know what to put here hehe");
+	l3.setAttribute("data-content", "<h1>recent fun stuff</h1>visited christkindlmarket<br><br>learned to bake brioche over thanksgiving break<br><br>spent ~4 months learning about gamecube controller modding and made a custom gcc for my partner<br><br>spent ~6 hours teaching myself advanced tableau");
+
 	const l4 = document.querySelector("#l4");
-	l4.setAttribute("data-content", "<h1>bun</h1><a href='https://bun.carro.dev'>view</a><br>this project was for cs396: generative methods<br>it's a drawing tool that uses p5js to make brushes for people to easily create bunnies<br>have fun with it :)");
+	l4.setAttribute("data-content", "<h1>bun</h1><a href='https://bun.carro.dev'>view</a><br>this project was for cs396: generative methods<br>it's a drawing tool that uses p5js to make brushes for people to easily create bunnies<br>aaa");
+
 	const l5 = document.querySelector("#l5");
 	l5.setAttribute("data-content", "<h1>site</h1>the site you're on right now<br><a href='https://github.com/cxrro/cxrro.github.io'>github repo</a>");
+
 	const l6 = document.querySelector("#l6");
-	l6.setAttribute("data-content", "<h1>work</h1>other things i've worked on<br><br><a href='https://wiki.communitydata.science/Ecology_of_Online_Communities/Community_rules_study'>cdsc rules study<a><a href='https://studio.knightlab.com/projects/live-streaming/'>knight lab livestreaming<a>");
+	l6.setAttribute("data-content", "<h1>work</h1>i am in my productivity era<br><br><a href='https://arch.library.northwestern.edu/collections/707957731'>comm studies honors thesis<a><br><a href='https://advising.soc.northwestern.edu/academic_modules/media-arts-and-game-design/'>media arts and game design capstone<a><br><a href='https://wiki.communitydata.science/Ecology_of_Online_Communities/Community_rules_study'>cdsc rules study<a><br><a href='https://studio.knightlab.com/projects/live-streaming/'>knight lab livestreaming<a><br><a href='https://magic.gg/news/magic-30-tickets-and-events-details#Program'>wotc project management intern<a>");
+
 	const l7 = document.querySelector("#l7");
 	l7.setAttribute("data-content", "<h1>social</h1>haha content<br><br><a href='https://twitch.tv.carroh'>twitch<a><a href='https://are.na/carro'>are.na<a><a href='https://www.linkedin.com/in/czou/'>linkedin<a><a href='https://twitter.com/carrohno'>twitter<a>");
+
 	const l8 = document.querySelector("#l8");
-	l8.setAttribute("data-content", "<h1>links</h1>");
+	l8.setAttribute("data-content", "<h1>stuff i like</h1>");
+
 	const l9 = document.querySelector("#l9");
 	l9.setAttribute("data-content", "<h1>contact</h1>email: cqz@u.northwestern.edu<br>discord: carro#0001");
 

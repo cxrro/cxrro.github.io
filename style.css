@@ -20,6 +20,7 @@
 	font-family: IBM Plex Mono;
 	background-color: var(--color-bg);
 	color: #000;
+	text-decoration: none;
   }
 
   .wrapper {
@@ -82,6 +83,10 @@
   a {
 	color: #000;
 	text-decoration: underline;
+  }
+
+  body {
+	text-decoration: none;
   }
 
   .square:hover {
