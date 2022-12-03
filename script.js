@@ -34,9 +34,6 @@ window.onload = () => {
 	const l9 = document.querySelector("#l9");
 	l9.setAttribute("data-content", "<h1>contact</h1>email: cqz@u.northwestern.edu<br>discord: carro#0001");
 
-
-
-
 	// Select all of the squares on the page
 	const squares = document.querySelectorAll('.square');
 	// Add a click event listener to each square
@@ -121,3 +118,26 @@ window.onload = () => {
 			square.classList.remove('active');
 			square.innerHTML = square.dataset.originalContent;
 		});}});};
+
+document.addEventListener('keydown', function(event) {
+	if (event.key === 'Enter') {
+		console.log('enter pressed');
+		// The enter key was pressed, so simulate a click on the focused element.
+		const active = document.querySelector(".active");
+		console.log(active);
+		if (active == null) {
+		var clickEvent = new MouseEvent('click', {
+			bubbles: true,
+			cancelable: true
+		});
+		document.activeElement.dispatchEvent(clickEvent);
+		} else {
+		const squares = document.querySelectorAll('.square');
+		squares.forEach(square => {
+			square.classList.remove('active');
+			square.innerHTML = square.dataset.originalContent;
+		});
+		}
+	}
+	});
+		  

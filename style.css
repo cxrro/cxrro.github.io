@@ -95,6 +95,11 @@
 	transition: 1s;
   }
 
+  .square:focus {
+	transform: scale(1.05);
+	transition: 1s;
+  }
+
   .square.active {
 	font-size: 5px;
 	transform: scale(3);
