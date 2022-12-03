@@ -8,7 +8,7 @@ function randomSub() {
 
 window.onload = () => {
 	const l1 = document.querySelector("#l1");
-	l1.setAttribute("data-content", "<h1>about</h1>hi! i'm carolyn and i'm a junior at northwestern studying communication and computer science. <br><br>i'm also pursuing the certificate in human-computer interaction</a> and the media arts and game design module.</a> <br><br>i'm interested in educational games, data visualization, and continental philosophy.<br><br>in my free time, i enjoy making and solving crossword puzzles and playing strategy games. i'm ranked top 0.2% in teamfight tactics.");
+	l1.setAttribute("data-content", "<h1>about</h1>hi! i'm carolyn and i'm a junior at northwestern studying communication and computer science. <br><br>i'm also pursuing the certificate in human-computer interaction</a> and the media arts and game design module.</a> <br><br>i'm interested in educational games, data visualization, and continental philosophy.<br><br>in my free time, i enjoy making and solving crossword puzzles and playing strategy games. i'm ranked top 0.1% in teamfight tactics.");
 
 	const l2 = document.querySelector("#l2");
 	l2.setAttribute("data-content", "<h1>resume</h1>last updated dec 2022<br><a href='https://drive.google.com/file/d/14GFlCptTqRZT8a1rikGfvZTIgrqbaSa-/preview'>view</a>");
