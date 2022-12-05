@@ -26,7 +26,7 @@ window.onload = () => {
 	l6.setAttribute("data-content", "<h1>work</h1>i am in my productivity era<br><br><a href='https://arch.library.northwestern.edu/collections/707957731'>comm studies honors thesis<a><br><a href='https://advising.soc.northwestern.edu/academic_modules/media-arts-and-game-design/'>media arts and game design capstone<a><br><a href='https://wiki.communitydata.science/Ecology_of_Online_Communities/Community_rules_study'>cdsc rules study<a><br><a href='https://studio.knightlab.com/projects/live-streaming/'>knight lab livestreaming<a><br><a href='https://magic.gg/news/magic-30-tickets-and-events-details#Program'>wotc project management intern<a><br><a href='https://discord.gg/forensics'>competitive debate discord<a>");
 
 	const l7 = document.querySelector("#l7");
-	l7.setAttribute("data-content", "<h1>social</h1>haha content<br><br><a href='https://twitch.tv.carroh'>twitch<a><a href='https://are.na/carro'>are.na<a><a href='https://www.linkedin.com/in/czou/'>linkedin<a><a href='https://twitter.com/carrohno'>twitter<a><a href='https://carro.substack.com'>substack<a>");
+	l7.setAttribute("data-content", "<h1>social</h1>haha content<br><br><a href='https://twitch.tv/carroh'>twitch<a><a href='https://are.na/carro'>are.na<a><a href='https://www.linkedin.com/in/czou/'>linkedin<a><a href='https://twitter.com/carrohno'>twitter<a><a href='https://carro.substack.com'>substack<a>");
 
 	const l8 = document.querySelector("#l8");
 	l8.setAttribute("data-content", "<h1>stuff i like</h1><br><br><a href='https://www.sunsama.com'>sunsama<a><a href='https://reboothq.substack.com'>reboot<a><a href='https://teamfighttactics.leagueoflegends.com'>tft<a><a href='https://www.twitch.tv/moonlimes'>moonlimes<a>");
