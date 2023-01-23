@@ -60,11 +60,10 @@ window.onload = () => {
 			return squareOrder === "5";
 			});
 			// Find the first element in the filtered list of squares
-			const elementWithOrder5 = Array.prototype.find.call(squareWithOrder5, (square) => {
+			const middle = Array.prototype.find.call(squareWithOrder5, (square) => {
 				// Return true if the square is an element, otherwise return false
 				return square instanceof Element;
 			});
-			const middle = elementWithOrder5
 			const middleComputedStyle = window.getComputedStyle(middle);
 			const middleOrder = middleComputedStyle.getPropertyValue("order");
 			const newActiveSquare = square;
