@@ -1,0 +1,106 @@
+body {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 12px;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	color: #000000;
+  }
+  
+  .container {
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 20px 40px;
+  }
+  
+  header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	text-align: center;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #ecf0f1;
+  position: relative;
+}
+
+nav a:hover {
+  color: #bdc3c7;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #3498db;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+nav a:hover::after {
+  transform: scaleX(1);
+}
+
+main {
+  text-align: left;
+}
+
+.section-box {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+ul, ol {
+  text-align: left;
+}
+
+
+.image-grid {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+  }
+  
+  .image-box {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	overflow: hidden;
+	cursor: pointer;
+  }
+  
+  .image-box img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  .image-box p {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 2px 0;
+	font-size: 12px;
+  }
+  

@@ -1,125 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <div id="index">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap"
-        rel="stylesheet"
-      />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>carolyn zou</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <section id="about" class="section-box">
+          <h2>carolyn q zou</h2>
+          <p>cqz [at] u.northwestern.edu</p>
+        </section>
 
-      <title>carro</title>
+        <section id="work" class="section-box">
+          <h2>current work</h2>
+          <ul>
+            <li>honors thesis advised by Aaron Shaw</li>
+            <li>cdsc research assistant working on omnibus rules study</li>
+            <li>
+              ethics fellow designing and implementing curricula for core cs
+              courses
+            </li>
+          </ul>
+        </section>
 
-      <script src="script.js"></script>
-      <link rel="stylesheet" href="/style.css" />
-    </head>
-    <body>
-      <div class="wrapper">
-        <div class="content" role="main">
-          <h1 class="title">
-            carolyn zou
-          </h1>
-          <h2 class="subtitle" id="randomSubtitle">welcome :)</h2>
-
-          <div class="container">
-              <div
-                class="square"
-                tabindex="0"
-                id="l1"
-                data-original-content="about"
-                data-content=""
-            
-              >
-                about
-              </div>
-
-              <div
-                class="square"
-                tabindex="0"
-                id="l2"
-                data-original-content="resume"
-                data-content=""
-              >
-                resume
-              </div>
-
-              <div
-                class="square"
-                tabindex="0"
-                id="l3"
-                data-original-content="fun"
-                data-content=""
-              >
-                fun
-              </div>
-            
-              <div
-                class="square"
-                tabindex="0"
-                id="l4"
-                data-original-content="bun"
-                data-content=""
-              >
-                bun
-              </div>
-
-              <div
-                class="square"
-                tabindex="0"
-                id="l5"
-                data-original-content="site"
-                data-content=""
-              >
-                site
-              </div>
-
-              <div
-                class="square"
-                tabindex="0"
-                id="l6"
-                data-original-content="work"
-                data-content=""
-              >
-                work
-              </div>
-           
-              <div
-                class="square"
-                tabindex="0"
-                id="l7"
-                data-original-content="social"
-                data-content=""
-              >
-                social
-              </div>
-
-              <div
-                class="square"
-                tabindex="0"
-                id="l8"
-                data-original-content="links"
-                data-content=""
-              >
-                links
-              </div>
-
-              <div
-                class="square"
-                tabindex="0"
-                id="l9"
-                data-original-content="contact"
-                data-content=""
-              >
-                contact
-              </div>
+        <section id="ups" class="section-box">
+          <h2>updates</h2>
+          <ul>
+            <li>04/2023 — received summer undergraduate research grant</li>
+            <li>
+              03/2023 — completed huggingface deep rl course over spring break
+            </li>
+            <li>03/2023 — accepted into comm studies honors program</li>
+            <li>
+              03/2023 — attended Stanford Embedded Ethics Conference as a grant
+              recipient
+            </li>
+            <li>
+              02/2023 — joined Lambda Pi Eta, the national communication honor
+              society
+            </li>
+          </ul>
+        </section>
+        <section id="personal" class="section-box">
+          <h2>personal</h2>
+          <div class="image-grid">
+            <div class="image-box" data-category="category1">
+              <img src="category1-img1.jpg" alt="Category 1" />
+              <p>birding</p>
             </div>
+            <div class="image-box" data-category="category2">
+              <img src="category2-img1.jpg" alt="Category 2" />
+              <p>controllers</p>
+            </div>
+            <!-- Add more categories using the same format -->
           </div>
-        </div>
-      </div>
-      <br /><br />
-    </body>
-  </div>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
